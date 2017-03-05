@@ -1,4 +1,4 @@
-# baseURI: http://www.w3.org/ns/sosa/oml
+# baseURI: http://www.w3.org/ns/sosa/sosa-oml
 # imports: http://def.seegrid.csiro.au/ontology/om/om-lite
 # imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://www.w3.org/ns/sosa/
@@ -14,7 +14,7 @@
 @prefix samfl: <http://def.seegrid.csiro.au/ontology/om/sam-lite#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
-@prefix sosa-oml: <http://www.w3.org/ns/sosa/oml#> .
+@prefix sosa-oml: <http://www.w3.org/ns/sosa/sosa-oml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 oml:Observation
@@ -98,7 +98,7 @@ sosa:isResultOf
   rdfs:comment "... or SamplingEvent" ;
   skos:definition "... or SamplingEvent" ;
 .
-sosa:oml
+sosa:sosa-oml
   rdf:type owl:Ontology ;
   dc:creator "Simon J D Cox" ;
   dcterms:created "2016-12-14" ;

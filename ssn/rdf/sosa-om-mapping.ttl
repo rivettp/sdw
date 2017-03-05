@@ -1,4 +1,4 @@
-# baseURI: http://www.w3.org/ns/sosa/om
+# baseURI: http://www.w3.org/ns/sosa/sosa-om
 # imports: http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature
 # imports: http://def.isotc211.org/iso19156/2011/Specimen
 # imports: http://www.w3.org/ns/sosa/
@@ -18,7 +18,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
-@prefix sosa-om: <http://www.w3.org/ns/sosa/om#> .
+@prefix sosa-om: <http://www.w3.org/ns/sosa/sosa-om#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 iso19156-om:OM_Observation
@@ -109,7 +109,7 @@ sosa:hasResult
 sosa:isResultOf
   <http://meta.schema.org/rangeIncludes> sosa-om:SamplingEvent ;
 .
-sosa:om
+sosa:sosa-om
   rdf:type owl:Ontology ;
   dc:creator "Simon J D Cox" ;
   dct:created "2016-12-14"^^xsd:date ;
